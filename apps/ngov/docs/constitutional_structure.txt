@@ -1,0 +1,11 @@
+# Nepal Constitutional structure three tier
+# Central Government (Singhadurbar) or Federal Government (sanghiya sarkar)
+# Provincial Governments (pradesh sarkar) --> 7
+# 753 Local Governments which include 6 Metropolitan Cities (Mahanagarpalika),
+# 11 Sub Metropolitan Cities(Upa-Mahanagarpalika),
+# 276 Municipalities (Nagarpalika) and 460 Rural Municipalities (Gaunpalika).
+# 77 districts each district there is a District Coordination Committee which has less powers than Local Governments
+# District (zilla) Administration office headed by a Chief District Officer (CDO)
+# District Police force, District Court, District Attorney’s Office, District Coordination committee of course
+
+reference: https://www.quora.com/What-is-the-present-federal-structure-of-Nepal-and-what-are-the-significances

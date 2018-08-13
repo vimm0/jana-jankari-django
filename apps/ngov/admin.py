@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from apps.ngov.models import Ministry, Department, Office
+
+admin.site.register(Ministry)
+admin.site.register(Department)
+admin.site.register(Office)
