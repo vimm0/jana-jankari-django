@@ -1,4 +1,5 @@
 django
 djangorestframework
-django-modeltranslation
+# django-modeltranslation
 ipdb
+django-hvad

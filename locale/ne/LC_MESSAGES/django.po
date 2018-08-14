@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-14 07:21+0000\n"
+"POT-Creation-Date: 2018-08-14 09:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <vimmrana0@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,10 +23,11 @@ msgid "ngov"
 msgstr "नेपाल सरकार"
 
 #: apps/ngov/models.py:6 apps/ngov/models.py:18 apps/ngov/models.py:31
+#: apps/ngov/serializers.py:10
 msgid "name"
 msgstr "नाम"
 
-#: apps/ngov/models.py:7 apps/ngov/models.py:19
+#: apps/ngov/models.py:7 apps/ngov/models.py:19 apps/ngov/serializers.py:10
 msgid "location"
 msgstr "स्थान"
 
@@ -58,10 +59,24 @@ msgstr "कार्यालय"
 msgid "Offices"
 msgstr "कार्यालयहरु"
 
-#: janajankari_django/settings.py:121
+#: janajankari_django/settings.py:117
 msgid "Nepali"
 msgstr "नेपाली"
 
-#: janajankari_django/settings.py:122
+#: janajankari_django/settings.py:117
 msgid "English"
 msgstr "अंग्रेजी"
+
+#: templates/admin/base_site.html:24
+#, fuzzy
+#| msgid "location"
+msgid "Documentation"
+msgstr "स्थान"
+
+#: templates/admin/base_site.html:28
+msgid "Change password"
+msgstr ""
+
+#: templates/admin/base_site.html:30
+msgid "Log out"
+msgstr ""

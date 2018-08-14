@@ -30,8 +30,8 @@ class Department(models.Model):
 class Office(models.Model):
     name = models.CharField(_('name'), max_length=254)
     website = models.URLField(_('website'), max_length=200)
-    department = models.ForeignKey('Department', verbose_name=_('Department'), on_delete=models.CASCADE)
-    ministry = models.ForeignKey('Ministry', verbose_name=_('Ministry'), on_delete=models.CASCADE)
+    department = models.ForeignKey('Department', verbose_name=_('Department'), on_delete=models.CASCADE, null=True, blank=True)
+    ministry = models.ForeignKey('Ministry', verbose_name=_('Ministry'), on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:
         verbose_name = _('Office')

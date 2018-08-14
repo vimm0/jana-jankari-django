@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 
+from django.utils.translation import gettext_lazy as _
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -29,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'modeltranslation',
+    'modeltranslation',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -111,14 +113,9 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
-from django.utils.translation import gettext_lazy as _
 
-LANGUAGES = [
-    ('ne', _('Nepali')),
-    ('en', _('English')),
-]
-# MODELTRANSLATION_LANGUAGES = ('en', 'de')
-# LANGUAGE_CODE = "es-es"
+LANGUAGES = [('ne', _('Nepali')), ('en', _('English')), ]
+
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
