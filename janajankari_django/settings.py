@@ -29,6 +29,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # 'modeltranslation',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -48,8 +50,8 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.locale.LocaleMiddleware'
 ]
 
 ROOT_URLCONF = 'janajankari_django.urls'
@@ -104,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 # from django.utils.translation import ugettext_lazy as _
 
-# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -113,21 +115,18 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+from django.utils.translation import gettext_lazy as _
 
-LANGUAGE_CODE = "es-es"
+LANGUAGES = [
+    ('ne', _('Nepali')),
+    ('en', _('English')),
+]
+# MODELTRANSLATION_LANGUAGES = ('en', 'de')
+# LANGUAGE_CODE = "es-es"
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
-# LOCALE_PATHS = ['ne']
-# LOCALE_PATHS = (
-#     os.path.join(BASE_DIR, 'conf/locale'),
-# )
-# print(os.path.join(BASE_DIR, 'conf/locale'))
-# LANGUAGES = (
-#     ('en', _('English')),
-#     ('pt-br', _('Portuguese')),
-#     ('it', _('Italian')),
-#     ('fr', _('French')),
-#     ('es', _('Spanish')),
-# )
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 

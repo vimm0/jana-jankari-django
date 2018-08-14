@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-14 06:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <vimmrana0@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/ngov/apps.py:7
+msgid "ngov"
+msgstr "नेपाल सरकार"
+
+#: apps/ngov/models.py:6 apps/ngov/models.py:18 apps/ngov/models.py:31
+msgid "name"
+msgstr "नाम"
+
+#: apps/ngov/models.py:7 apps/ngov/models.py:19
+msgid "location"
+msgstr "स्थान"
+
+#: apps/ngov/models.py:10 apps/ngov/models.py:34
+msgid "Ministry"
+msgstr "मन्त्रालय"
+
+#: apps/ngov/models.py:11
+msgid "Ministries"
+msgstr "मन्त्रालयहरु"
+
+#: apps/ngov/models.py:22 apps/ngov/models.py:33
+msgid "Department"
+msgstr "विभाग"
+
+#: apps/ngov/models.py:23
+msgid "Departments"
+msgstr "विभागहरु"
+
+#: apps/ngov/models.py:32
+msgid "website"
+msgstr "वेबसाइट"
+
+#: apps/ngov/models.py:37
+msgid "Office"
+msgstr "कार्यालय"
+
+#: apps/ngov/models.py:38
+msgid "Offices"
+msgstr "कार्यालयहरु"
+
+#: janajankari_django/settings.py:121
+msgid "Nepali"
+msgstr "नेपाली"
+
+#: janajankari_django/settings.py:122
+msgid "English"
+msgstr "अंग्रेजी"
