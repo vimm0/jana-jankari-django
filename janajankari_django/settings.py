@@ -41,8 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'graphene_django',
 
-    'apps.ngov'
+    'apps.ngov',
+    'apps.inventory'
 ]
 
 MIDDLEWARE = [
@@ -127,3 +129,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+#####################
+
+GRAPHENE = {
+    'SCHEMA': 'janajankari_django.schema.schema'  # project-level
+}
