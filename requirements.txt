@@ -1,4 +1,10 @@
+# BASE
 django
 djangorestframework
 django-modeltranslation
+
+
+# TEST
 ipdb
+django-debug-toolbar
+django-autofixture

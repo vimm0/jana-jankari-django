@@ -6,6 +6,7 @@ from graphene_django.views import GraphQLView
 from rest_framework import routers
 
 from apps.ngov.api import MinistryViewSet, DepartmentViewSet, OfficeViewSet
+from janajankari import settings
 
 router = routers.DefaultRouter()
 router.register('ministry', MinistryViewSet)
@@ -19,3 +20,7 @@ urlpatterns = i18n_patterns(
 
     # path(r'^api-auth/', include('rest_framework.urls'))
 )
+if settings.DEBUG:
+    import debug_toolbar
+
+    urlpatterns = [path('__debug__/', include(debug_toolbar.urls)), ] + urlpatterns

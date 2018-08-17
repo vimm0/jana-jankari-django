@@ -1,0 +1,1530 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "ngov",
+      "model": "department"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "ngov",
+      "model": "ministry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "ngov",
+      "model": "office"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "bqrxyzqi1hruyo2a2e6wr3teg7ipwy23",
+    "fields": {
+      "session_data": "ZTdiOTMxMGYyYTJlMDE5N2YwMTkzOGZmNzQ5MWYzNjFiMmQ0OTA0Mjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhNjQ3MTU5MmZjMjc3ZmU2MWYzMTVmYmI0NmUwZjI1NDBhMjk1MzhiIn0=",
+      "expire_date": "2018-08-28T09:46:35.796Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "o841swf7g1ikwvejwi68zxc9d0yk1sdt",
+    "fields": {
+      "session_data": "ZTdiOTMxMGYyYTJlMDE5N2YwMTkzOGZmNzQ5MWYzNjFiMmQ0OTA0Mjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhNjQ3MTU5MmZjMjc3ZmU2MWYzMTVmYmI0NmUwZjI1NDBhMjk1MzhiIn0=",
+      "expire_date": "2018-08-28T10:29:19.658Z"
+    }
+  },
+  {
+    "model": "ngov.ministry",
+    "pk": 2,
+    "fields": {
+      "name": "MINISTRY OF COMMUNICATION AND INFORMATION TECHNOLOGY",
+      "name_ne": "\u0938\u091e\u094d\u091a\u093e\u0930 \u0924\u0925\u093e \u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u092e\u0928\u094d\u0924\u094d\u0930\u093e\u0932\u092f",
+      "name_en": "MINISTRY OF COMMUNICATION AND INFORMATION TECHNOLOGY",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 1,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 2,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 3,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 4,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 5,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 6,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 7,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 8,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 9,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 10,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 11,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.department",
+    "pk": 12,
+    "fields": {
+      "name": "Department Of Information Technology",
+      "name_ne": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "name_en": "Department Of Information Technology",
+      "location": "Kathmandu, Nepal",
+      "location_ne": "\u0915\u093e\u0920\u092e\u093e\u0923\u094d\u0921\u094c, \u0928\u0947\u092a\u093e\u0932",
+      "location_en": "Kathmandu, Nepal"
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 1,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 2,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 3,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 4,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 5,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 6,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 7,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 8,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 9,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 10,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 11,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 12,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 13,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 14,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 15,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 16,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 17,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 18,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 19,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 20,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 21,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 22,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 23,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 24,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 25,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 26,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 27,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 28,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 29,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 30,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 31,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 32,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 33,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 34,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 35,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 36,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 37,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 38,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 39,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 40,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 41,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 42,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 43,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 44,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 45,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 46,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 47,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "ngov.office",
+    "pk": 48,
+    "fields": {
+      "name": "Office of Prime Minister",
+      "name_ne": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "name_en": "Office of Prime Minister",
+      "website": "https://www.opmcm.gov.np/en/",
+      "website_ne": "https://www.opmcm.gov.np/en/",
+      "website_en": "https://www.opmcm.gov.np/en/",
+      "department": null,
+      "department_ne": null,
+      "department_en": null,
+      "ministry": null,
+      "ministry_ne": null,
+      "ministry_en": null
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Department",
+      "content_type": 7,
+      "codename": "add_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Department",
+      "content_type": 7,
+      "codename": "change_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Department",
+      "content_type": 7,
+      "codename": "delete_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Department",
+      "content_type": 7,
+      "codename": "view_department"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Ministry",
+      "content_type": 8,
+      "codename": "add_ministry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Ministry",
+      "content_type": 8,
+      "codename": "change_ministry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Ministry",
+      "content_type": 8,
+      "codename": "delete_ministry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Ministry",
+      "content_type": 8,
+      "codename": "view_ministry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Office",
+      "content_type": 9,
+      "codename": "add_office"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Office",
+      "content_type": 9,
+      "codename": "change_office"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Office",
+      "content_type": 9,
+      "codename": "delete_office"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Office",
+      "content_type": 9,
+      "codename": "view_office"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$kCm7r1OBxU1d$c1rbIhVUMBP8v+RZab8vYpgfxAaRg3/0yaOJNUqKgX0=",
+      "last_login": "2018-08-14T10:29:19.648Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-08-14T09:46:13.661Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2018-08-14T09:49:11.748Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2018-08-14T10:16:25.978Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0935\u093f\u0927\u093f \u0935\u093f\u092d\u093e\u0917",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2018-08-14T10:22:18.840Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "MINISTRY OF COMMUNICATION AND INFORMATION TECHNOLOGY",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2018-08-14T10:23:15.017Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "MINISTRY OF COMMUNICATION AND INFORMATION TECHNOLOGY",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name_ne\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2018-08-14T10:26:53.318Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2018-08-14T10:27:52.224Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0924\u0925\u093e \u092e\u0928\u094d\u0924\u094d\u0930\u093f\u092a\u0930\u093f\u0937\u0926\u094d\u0915\u094b \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  }
+]

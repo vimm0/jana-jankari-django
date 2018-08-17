@@ -59,11 +59,11 @@ msgstr "कार्यालय"
 msgid "Offices"
 msgstr "कार्यालयहरु"
 
-#: janajankari_django/settings.py:117
+#: janajankari/settings.py:117
 msgid "Nepali"
 msgstr "नेपाली"
 
-#: janajankari_django/settings.py:117
+#: janajankari/settings.py:117
 msgid "English"
 msgstr "अंग्रेजी"
 
