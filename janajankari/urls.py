@@ -17,6 +17,7 @@ urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     path('graphql', GraphQLView.as_view(graphiql=True)),
+    path('search/', include('haystack.urls')),
 
     # path(r'^api-auth/', include('rest_framework.urls'))
 )

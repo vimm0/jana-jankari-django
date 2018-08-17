@@ -2,9 +2,13 @@
 django
 djangorestframework
 django-modeltranslation
-
+elasticsearch>=2.0.0,<3.0.0
+django-haystack
 
 # TEST
 ipdb
 django-debug-toolbar
 django-autofixture
+# django-debug-toolbar deps
+django-haystack-panel
+djdt_flamegraph
